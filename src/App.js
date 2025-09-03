@@ -311,7 +311,7 @@ function App() {
         {/* Photo 2 - Cat */}
         <div className="photo-container photo-2">
           <img src={catImage} alt="Cat" loading="lazy" />
-          <div className="photo-caption">My cat Megatron {'>:)'} </div>
+          <div className="photo-caption">My cat Megatron {'>:)'}</div>
         </div>
         
         {/* Photo 3 - Graduation */}
