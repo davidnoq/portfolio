@@ -12,7 +12,7 @@ import catImage from './assets/cat.jpg';
 import gradImage from './assets/grad.JPG';
 import girlImage from './assets/girl.jpg';
 import meImage from './assets/me.JPG';
-
+import { Analytics } from "@vercel/analytics/react"
 // Typing animation component with intersection observer
 const TypingText = ({ text, speed = 70 }) => {
   const [displayText, setDisplayText] = useState('');
@@ -113,7 +113,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="max-w-7xl mx-auto min-h-screen flex flex-col gap-12 px-4 py-20 z-0">
+      <section id="projects" className="max-w-7xl mx-auto min-h-screen flex flex-col gap-12 px-4 sm:px-6 md:px-8 py-20 z-0">
       <h1 className="maxHero font-mono uppercase font-semibold text-5xl text-center sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-tight mb-6 md:mb-8 text-white">
           <TypingText text="Projects" speed={70} />
         </h1>
@@ -140,6 +140,7 @@ function App() {
                 src={healthImage} 
                 alt="Health Smart Project" 
                 className="project-image tech-tag"
+                loading="lazy"
               />
             </div>
             
@@ -182,6 +183,7 @@ function App() {
                 src={foodcraftImage} 
                 alt="FoodCraft Project" 
                 className="project-image tech-tag"
+                loading="lazy"
               />
             </div>
             
@@ -221,6 +223,7 @@ function App() {
                 src={skillbitImage} 
                 alt="SkillBit Project" 
                 className="project-image tech-tag"
+                loading="lazy"
               />
             </div>
             
@@ -263,6 +266,7 @@ function App() {
                 src={bitewheelsImage} 
                 alt="BiteWheels Project" 
                 className="project-image tech-tag"
+                loading="lazy"
               />
             </div>
             
@@ -293,34 +297,34 @@ function App() {
 
 
       {/* About Section */}
-      <section className="w-full App min-h-screen bg-white py-32 border-2 border-black flex flex-col relative overflow-hidden">
+      <section className="w-full App min-h-screen bg-white py-32 border-b-2 border-black flex flex-col relative overflow-hidden">
       <h1 className="maxHero font-mono uppercase font-semibold text-5xl text-center sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-tight mb-6 md:mb-8 text-black">
           <TypingText text="About Me" speed={70} />
         </h1>
         
         {/* Photo 1 - Nature */}
         <div className="photo-container photo-1">
-          <img src={natureImage} alt="Nature" />
+          <img src={natureImage} alt="Nature" loading="lazy" />
           <div className="photo-caption">I love nature</div>
         </div>
         
         {/* Photo 2 - Cat */}
         <div className="photo-container photo-2">
-          <img src={catImage} alt="Cat" />
+          <img src={catImage} alt="Cat" loading="lazy" />
           <div className="photo-caption">My cat Megatron {'>:)'} </div>
         </div>
         
         {/* Photo 3 - Graduation */}
         <div className="photo-container photo-3">
-          <img src={gradImage} alt="Graduation" />
-          <div className="photo-caption">UF Graduate 2025</div>
+          <img src={gradImage} alt="Graduation" loading="lazy" />
+          <div className="photo-caption">UF graduate 2025</div>
         </div>
         
         {/* Raw Photo 1 - Girl */}
-        <img src={girlImage} alt="Girl" className="raw-photo raw-photo-1" />
+        <img src={girlImage} alt="Girl" className="raw-photo raw-photo-1" loading="lazy" />
         
         {/* Raw Photo 2 - Me */}
-        <img src={meImage} alt="Me" className="raw-photo raw-photo-2" />
+        <img src={meImage} alt="Me" className="raw-photo raw-photo-2" loading="lazy" />
       </section>
 
       {/* Contact Section */}
