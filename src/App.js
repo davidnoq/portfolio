@@ -75,7 +75,7 @@ function App() {
       {/* Hero Section */}
       <section className=" w-full min-h-screen flex flex-col relative overflow-hidden">
         {/* Split Background */}
-        <div className="loginAccentBackground h-[1100px] absolute -top-46 -right-96 -left-96 -rotate-6 z-10"></div>
+        <div className="loginAccentBackground h-[800px] absolute top-0 -right-64 -left-64 -rotate-6 z-10"></div>
         
         {/* Grain texture overlay */}
         <div className="absolute inset-0 opacity-20 bg-noise"></div>
