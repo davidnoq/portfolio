@@ -159,9 +159,7 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
-                  GitHub
-                </a>
+                
                 <a href="https://healthsmartholistichealth.program.ufl.edu/" target="_blank" rel="noopener noreferrer" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-blue-400 transition">
                   Website
                 </a>
@@ -202,7 +200,7 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
+                <a href="https://github.com/davidnoq/Foodcraft" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
                   GitHub
                 </a>
               </div>
@@ -242,7 +240,7 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
+                <a href="https://github.com/davidnoq/skillbit" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
                   GitHub
                 </a>
                 <a href="https://skillbit-e6uk9k9na-tylerhaismans-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-blue-400 transition">
@@ -285,7 +283,7 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
+                <a href="https://github.com/davidnoq/Bitewheels" className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-gray-400 hover:text-black transition">
                   GitHub
                 </a>
               </div>
