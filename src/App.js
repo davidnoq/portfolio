@@ -367,6 +367,14 @@ function App() {
                 >
                   GitHub
                 </a>
+                <a
+                  href="https://bitewheels-21c265e6fcda.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link px-6 py-3 bg-indigo-600 text-white text-lg font-bold rounded-lg hover:bg-blue-400 transition"
+                >
+                  Website
+                </a>
               </div>
             </div>
           </motion.div>
